@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+  <!-- Document metadata -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- External CSS dependencies -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <!-- Page title -->
+
+  <title>الأهداف الاستراتيجية</title>
+  <!-- Custom styles -->
+  <style>
+    /* Body background styling */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(  
+            to bottom,
+            rgba(6, 61, 190, 0.398),
+            rgba(6, 61, 190, 0.398),
+            rgba(255, 130, 21, 0.497)
+            );
+    }
+
+    /* Goal card styling */
+    .goal-card {
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* Card hover effects */
+    .goal-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Icon styling */
+    .goal-icon {
+      font-size: 2.8rem;
+      flex-shrink: 0;
+    }
+
+    /* Text styling */
+    .goal-text {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #fff;
+      flex: 1;
+    }
+
+    /* Color variations for icons */
+    .icon-orange { color: #FFA726; }
+    .icon-green { color: #66BB6A; }
+    .icon-blue { color: #29B6F6; }
+    .icon-purple { color: #AB47BC; }
+  </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+<!-- Header section -->
+  <div class="position-relative w-100">
+    <img class="img-fluid w-100 object-fit-cover" src="../images/goals.jpeg" alt="" style="height: 500px;" />
+
+    <!-- Gradient overlay -->
+    <div class="position-absolute top-0 w-100 h-100"
+      style="background: linear-gradient(to bottom, rgba(6, 61, 190, 0.4), rgba(255, 130, 21, 0.5));">
+    </div>
+
+    <!-- Logo -->
+    <a href="الصفحة الرئيسية.html">
+      <img class="img-fluid position-absolute top-0 end-0 m-2" style="width: 14%; min-width: 40px; height: auto"
+        src="../images/logo-ar.png" alt="logo" />
+    </a>
+
+    <!-- Language Switch Button -->
+    <a href="../eng/Home_page.html" style="position: absolute; top: 0; left: 0; margin: 1rem; background-color: #b97c50; border-radius: 20px; color: white; text-decoration: none; padding: 0.5rem 1rem; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#a05e1a';  "onmouseout="this.style.backgroundColor='#b97c50'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+      <i class="fas fa-language me-2"></i>
+      English
+    </a>
+    
+    <!-- Main heading -->
+    <h2 class="position-absolute top-50 start-50 translate-middle text-white text-center fw-bold"
+      style="font-size: clamp(16px, 4vw, 36px)">
+      الأهداف الاستراتيجية
+    </h2>
+  </div>
+
+  <!-- Goals container -->
+  <div class="flex-grow-1 py-5 px-3">
+    <div class="container">
+      <div class="d-flex flex-column gap-4">
+
+        <!-- Goal 1 -->
+        <div class="goal-card">
+          <span class="material-icons-outlined goal-icon icon-orange">emoji_objects</span>
+          <div class="goal-text">تعزيز ريادة المركز في أبحاث الطاقة المتجددة والابتكار التقني</div>
+        </div>
+
+        <!-- Goal 2 -->
+        <div class="goal-card">
+          <span class="material-icons-outlined goal-icon icon-green">handshake</span>
+          <div class="goal-text">بناء شراكات استراتيجية فعّالة تدعم التنمية المستدامة</div>
+        </div>
+
+        <!-- Goal 3 -->
+        <div class="goal-card">
+          <span class="material-icons-outlined goal-icon icon-blue">trending_up</span>
+          <div class="goal-text">ضمان استدامة النمو من خلال خطط مالية وتقنية متطورة</div>
+        </div>
+
+        <!-- Goal 4 -->
+        <div class="goal-card">
+          <span class="material-icons-outlined goal-icon icon-purple">school</span>
+          <div class="goal-text">الارتقاء بالمعرفة من خلال دعم البحوث والتعليم المتخصص</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

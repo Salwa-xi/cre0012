@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Basic meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- External CSS dependencies -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Page title in Arabic -->
+    <title>
+      Home Page
+    </title>
+  </head>
+  <!-- Custom CSS styles -->
+  <style>
+    /* Main background gradient */
+      body {
+            background: linear-gradient(to bottom, #fff, #fff, #fff, #fff,#fff,#fff, #b97c50); 
+          }
+      /* Button hover effects */
+      .btn {
+        transition: all 0.3s ease;
+      }
+      
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        opacity: 0.9;
+      }
+
+      /* Service card styling */
+      .service-card {
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid #b97c50;
+        transition: all 0.3s ease;
+        color: inherit;
+      }
+  
+      /* Service card hover animation */
+      .service-card:hover {
+        background-color: #f7ede5;
+        border-color: #a05e1a;
+        transform: scale(1.03);
+        box-shadow: 0 6px 18px rgba(185, 124, 80, 0.15);
+        color: #a05e1a;
+      }
+
+      /* Information card styling */
+      .info-card {
+        background-color: white;
+        color: #b97c50;
+        font-weight: 600;
+        font-size: 1.1rem;
+        border-radius: 24px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        transition: all 0.3s cubic-bezier(.4,2,.6,1);
+        padding: 2.5rem 1.5rem;
+        text-decoration: none;
+        min-height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      /* Info card hover effects */
+      .info-card:hover{
+        background-color: #f7ede5;
+        border-color: #a05e1a;
+        transform: scale(1.03);
+        box-shadow: 0 6px 18px rgba(185, 124, 80, 0.15);
+        color: #a05e1a;
+      }
+
+
+  </style>
+  <body>
+    <!-- Hero section with background image -->
+    <div class="position-relative d-inline-block w-100" style="height: 500px;">
+      <!-- Full-width background image -->
+      <img
+        class="img-fluid w-100 h-100 object-fit-cover"
+        src="../images/background.png"
+        alt=""
+      />
+
+      <!-- Gradient overlay -->
+      <div
+        class="position-absolute top-0 w-100 h-100"
+        style="
+          background: linear-gradient(
+            to bottom,
+            rgba(6, 61, 190, 0.398),
+            rgba(255, 130, 21, 0.497)
+          );
+        "
+      ></div>
+
+      <!-- Logo positioned top-right -->
+      <a href="#">
+        <img
+          class="img-fluid position-absolute top-0 start-0 m-2"
+          style="width: 14%; min-width: 40px; height: auto"
+          src="../images/logo-eng.png"
+          alt="logo"
+      /></a>
+      <!-- Language Switch Button -->
+      <a href="../arabic/الصفحة الرئيسية.html" style="position: absolute; top: 0; right: 0; margin: 1rem; background-color: #b97c50; border-radius: 20px; color: white; text-decoration: none; padding: 0.5rem 1rem;
+       transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#a05e1a';  "onmouseout="this.style.backgroundColor='#b97c50'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+        <i class="fas fa-language me-2"></i>
+        العربية
+      </a>
+      
+      <!-- Main heading with responsive font size -->
+      <h2
+        class="position-absolute top-50 start-50 translate-middle text-white text-center fw-bold w-75"
+        style="font-size: clamp(16px, 4vw, 36px)"
+      >
+
+      Establish long-term research programs in the field of renewable energy and electrical power systems.
+    </h2>
+    </div>
+
+    <!-- First section end -->
+
+
+<!-- Second section start -->
+<div
+  class="d-flex justify-content-center align-items-center w-70 px-2 py-5"
+ 
+>
+  <div
+    class="container p-5"
+    style="
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      border: 1px solid #b97c50;
+      max-width: 1100px;
+    "
+  >
+    <h4 class="mb-4 text-center" style="color: #b97c50">About the center</h4>
+    <div class="row align-items-center g-3 text-start">
+      <!-- Text column -->
+      <div class="col-lg-8 col-md-7">
+        <p>
+          Saudi Arabia has one of the largest power grids in the world, with a total installed capacity of 74.3 gigawatts (GW) and an annual growth rate of 6.7% over the five years to 2016.
+           The grid serves more than 8.6 million customers across 5,161 km of transmission networks and 70,300 km of distribution networks.
+           By 2021, the installed capacity is expected to increase to 91 GW and the number of customers to 10.8 million.
+           As demand for energy increases, environmental challenges, rising oil prices and climate change concerns are driving the Kingdom to expand its use of renewable energy sources.
+        </p>
+        <div class="d-grid gap-2 col-6 mx-auto text-center mt-4">
+          <a
+            class="btn text-white"
+            href="#"
+            role="button"
+            style="background-color: #b97c50"
+          >
+            For more
+          </a>
+        </div>
+      </div>
+      <!-- Image column -->
+      <div class="col-lg-4 col-md-5">
+        <img
+          src="../images/Services.png"
+          class="img-fluid"
+          style="
+            border-radius: 25px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            border-left: 5px solid #b97c50;
+            border-bottom: 5px solid #b97c50;
+          "
+          alt="image"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second section end -->
+
+
+
+<!-- Vision and mission section-->
+<div
+  class="w-100 py-5 px-2"
+  style="
+    background: linear-gradient(
+      to bottom,
+      rgba(229, 216, 203, 0.9),
+      rgba(255, 241, 224, 0.95),
+      rgba(255, 130, 21, 0.497)
+    );
+  "
+>
+  <div class="container" style="max-width: 1000px">
+    <!-- Vision -->
+    <div
+      class="mb-4 p-4 text-start"
+      style="
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        border: 1px solid #b97c50;
+      "
+    >
+      <h4 style="color: #b97c50">
+        <i class="fas fa-eye ms-2"></i>
+        Our vision
+      </h4>
+      <p class="mt-3">
+        Establish a research center of excellence in the field of renewable energy and electrical power systems as a high-quality national, regional and international research community.
+      </p>
+    </div>
+
+    <!-- Mission -->
+    <div
+      class="mb-4 p-4 text-start"
+      style="
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        border: 1px solid #b97c50;
+      "
+    >
+      <h4 style="color: #b97c50">
+        <i class="fas fa-paper-plane ms-2"></i>
+        Our mission
+      </h4>
+      <p class="mt-3">
+        Develop innovative technologies to ensure sustainable energy provision by supporting research programs in the field of renewable energy and 
+        electrical power systems at King Abdulaziz University to find technical and procedural solutions that meet the country's future energy needs.
+      </p>
+    </div>
+
+    <!-- National program -->
+    <div
+      class="p-4 text-start"
+      style="
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        border: 1px solid #b97c50;
+      "
+    >
+      <h4 style="color: #b97c50">
+        <i class="fas fa-bullseye ms-2"></i>
+        National Renewable Energy Program
+      </h4>
+      <p class="mt-3">
+        The National Renewable Energy Program is a strategic initiative under the umbrella of Saudi Vision 2030 and the King Salman Renewable Energy Initiative.
+         The program aims to maximize the Kingdom of Saudi Arabia's share of renewable energy production. 
+         The program has embarked on a specific and consistent roadmap to diversify local energy sources, stimulate economic development,
+          and work towards sustainable economic stability in the Kingdom in light of the objectives of Saudi Vision 2030, which include establishing a renewable energy industry and supporting the development of this promising sector by working to fulfill the Kingdom's commitments to reduce carbon dioxide emissions.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Center services section -->
+<div class="w-100 py-5 px-3">
+  <div class="container" style="max-width: 1000px">
+    <h3 class="text-center mb-4 fw-bold" style="color: #b97c50">
+      Center services
+    </h3>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Card 1 -->
+      <div class="col-md-6">
+        <a
+          href="book_a_visit.html"
+          class="text-decoration-none d-block p-4 text-center shadow-sm service-card"
+        >
+          <i class="fas fa-map-marker-alt fa-lg mb-2" style="color: #b97c50;"></i>
+          <h5 style="color: #b97c50;">Visit the center</h5>
+        </a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6">
+        <a
+          href="Internship_request.html"
+          class="text-decoration-none d-block p-4 text-center shadow-sm service-card"
+        >
+          <i class="fas fa-chalkboard-teacher fa-lg mb-2" style="color: #b97c50;"></i>
+          <h5 style="color: #b97c50;">Internship</h5>
+        </a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6">
+        <a
+          href="consolutation_request.html"
+          class="text-decoration-none d-block p-4 text-center shadow-sm service-card"
+        >
+          <i class="fas fa-comments fa-lg mb-2" style="color: #b97c50;"></i>
+          <h5 style="color: #b97c50;">Consultations</h5>
+        </a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-6">
+        <a
+          href="partnership_request.html"
+          class="text-decoration-none d-block p-4 text-center shadow-sm service-card"
+        >
+          <i class="fas fa-handshake fa-lg mb-2" style="color: #b97c50;"></i>
+          <h5 style="color: #b97c50;">Partnership</h5>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Director speech -->
+<div
+  class="w-100 py-5 px-3"
+  style="
+    background: linear-gradient(
+      to bottom,
+      rgba(229, 216, 203, 0.9),
+      rgba(255, 241, 224, 0.95)
+    );
+  "
+>
+  <div class="container" style="max-width: 1000px">
+    <div
+      class="row align-items-center justify-content-between"
+   
+    >
+      <div class="col-lg-3 text-center">
+        <img
+          src="../images/d.sultan.png"
+          class="img-fluid"
+          style="width: 400%; max-width: 300px; background: transparent;"
+          alt="Center director"
+        />
+        <p class="fw-medium" style="color: #444">Dr. Sultan Mohammed Ali Al-Ghamdi</p>
+      </div>
+
+      <div class="col-lg-8 text-start">
+        <h4 class="fw-bold" style="color: #444">Director speech</h4>
+        <p style="color: #777; font-size: 0.95rem;">Engineer Sultan Al-Ghamdi's speech about the center</p>
+        <p class="mt-3">
+          I am pleased to welcome you to the Center of Excellence for Research in Renewable Energy and Power Systems at King Abdulaziz University, which is a fundamental pillar in supporting the achievement of the Kingdom's Vision 2030 in the field of sustainable energy.
+           The center is committed to providing scientific consultations and implementing advanced studies aimed at developing innovative solutions that keep pace with the Kingdom's aspirations for a more sustainable future.
+        </p>
+        <a
+          href="Director's_speech.html"
+          class="btn text-white mt-3"
+          style="background-color: #b97c50; width: 100px;"
+        >
+          For more
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Links and informations section -->
+<div
+  class="w-100 py-5 px-3"
+  style="
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 241, 224, 0.95),
+      rgba(229, 216, 203, 0.9)
+      
+    );
+    
+  "
+>
+  <div class="container" style="max-width: 1100px">
+    <div class="row align-items-center justify-content-between g-4">
+      
+
+      <div class="col-lg-4 text-center text-lg-end">
+  <img
+    src="../images/logo_01_eng.png"
+    alt="Center logo"
+    class="img-fluid d-block mx-auto"
+    style="max-width: 360px; height: auto; background: transparent;"
+  />
+</div>
+
+
+      <div class="col-lg-8">
+        <div class="row g-4 text-center">
+
+          <div class="col-md-4">
+            <a
+              href="#"
+              class="info-card"
+            >
+              Our achievements
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="center_researches.html"
+              class="info-card"
+            >
+              Scientific papers
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="#"
+              class="info-card"
+              style="height: 110px;"
+            >
+              Postgraduate students
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="#"
+              class="info-card"
+              style="height: 110px;"
+            >
+              Organizational structure
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="CREPS_members.html"
+              class="info-card"
+            >
+              Center members
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="stratagic_goals.html"
+              class="info-card"
+            >
+              Strategic objectives
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container partners-section">
+
+   <!-- Partners section -->
+<div class="w-100 py-5 px-3" >
+    <div class="container" style="max-width: 1100px">
+      <h3 class="text-center fw-bold mb-4" style="color: #b97c50; font-size: 1.8rem;">
+        Our partners
+      </h3>
+  
+      <div class="partners-box">
+        <div class="justify-content-between align-items-center partners-logos">
+          <img src="../images/partner1.png" alt="شريك 1" height="60" />
+          <img src="../images/partner2.png" alt="شريك 2" height="60" />
+          <img src="../images/partner3.png" alt="شريك 3" height="60" />
+          <img src="../images/partner4.png" alt="شريك 4" height="60" />
+          <img src="../images/partner5.png" alt="شريك 5" height="60" />
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Styling -->
+  <style>
+  .partners-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .partners-logos {
+    display: flex;
+    gap: 80px;
+    animation: scrollPartners 20s linear infinite;
+    width: max-content;
+  }
+  
+  @keyframes scrollPartners {
+    100% {
+      transform: translateX(100%);
+    }
+    0% {
+      transform: translateX(-100%);
+    }
+  }
+  </style>
+  
+
+
+  <!-- X Section -->
+<div
+class="w-100 py-5 px-3"
+
+>
+<div class="container" style="max-width: 1100px">
+  <div class="text-center mb-4">
+    <h3 class="fw-bold" style="color: #b97c50; font-size: 1.8rem;">
+      Publications
+    </h3>
+  </div>
+
+  <!-- x Content -->
+  <div
+    class="p-4 bg-white rounded-4 shadow-sm"
+    style="border: 1px solid #eee; max-width: 800px; margin: auto;"
+  >
+    <a
+      class="twitter-timeline"
+      data-width="100%"
+      data-height="400"
+      data-theme="light"
+      href="https://twitter.com/CrepsKau?ref_src=twsrc%5Etfw"
+    >
+      <img
+        alt="X logo"
+        src="https://kau.edu.sa/Images/915/Home/Twitter-X-White-Logo-PNG.png"
+        style="width: 50px; margin: 150px auto; display: block;"
+      />
+    </a>
+  </div>
+</div>
+</div>
+
+<!-- X Script-->
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+<!-- Center location section -->
+<div
+
+>
+  <div class="container" style="max-width: 1100px">
+    <div class="row align-items-center bg-white rounded-4 shadow-sm p-4 g-4" style="min-height: 350px;">
+      
+      <!-- Location 
+       href="mailto:creps@kau.edu.sa"  -->
+      <div class="col-md-6 order-md-2">
+        <div class="map-container rounded-4 overflow-hidden shadow-sm">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10670.572274890852!2d39.24591868871743!3d21.500794507269678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cd5e671f9ffd%3A0x5967722ff61fc372!2z2KzYp9mF2LnYqSDYp9mE2YXZhNmDINi52KjYr9in2YTYudiy2YrYsg!5e0!3m2!1sar!2ssa!4v1746661121199!5m2!1sar!2ssa"
+          width="600" 
+          height="450"
+           style="border:0;" 
+           allowfullscreen="" 
+           loading="lazy" 
+           referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="col-md-6 order-md-1 d-flex flex-column justify-content-center text-md-start text-center">
+        <i class="fas fa-map-marker-alt fa-2x mb-3" style="color: #b97c50;"></i>
+        <h4 class="fw-bold mb-3" style="color: #b97c50;">The location</h4>
+        <p class="mb-1">Center of Excellence in Renewable Energy and Power Systems</p>
+        <p class="mb-1">The center - King Abdulaziz University</p>
+        <p class="mb-1">00966126952000</p>
+        <p class="mb-3">creps@kau.edu.sa</p>
+        
+        <a
+          href="Contact_us.html"
+          target="_blank"
+          class="btn text-white px-4 py-2"
+          style="background-color: #b97c50; border-radius: 30px; font-weight: 500;"
+        >
+          <i class="fas fa-envelope ms-2"></i>
+         Contact us
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </body>
+</html>
